@@ -30,6 +30,10 @@ class Table{
     public static void printDivider(){
         System.out.format("+-----------------+------------+------------+------------+------------+------------+%n");
     }
+    //memberikan satu baris kosong
+    public static void spacer(){
+        System.out.println();
+    }
 
     //deklarasi method printRecord untuk mencetak data pada tabel
     /**
